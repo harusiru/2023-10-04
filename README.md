@@ -6,6 +6,7 @@
 3. After installation, search for Gitbash in the Windows search box and run it.
 ---
 ### -Standard Output-
+
 The standard output is the output stream produced when the program runs, which basically outputs results on the screen.
 *-commands-*
 ">" - If you use the ">" you can send the standard output to a file rather than a screen. Use the ">" at this time. For example, the following command executes the ls command to store a list of files in the current directory in the 'files.txt file'.
