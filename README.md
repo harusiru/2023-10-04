@@ -45,7 +45,7 @@ ex)
 -'file*': Indicates all files and directories that begin with "file".
 -'dir\*/subdir\*': Indicates all directories beginning with "dir" and beginning with "subdir".
 
-"~" - The wave mark (~) is used to indicate the current user's home directory. This makes it easy to refer to the path of your home directory.
+"\~" - The wave mark (\~) is used to indicate the current user's home directory. This makes it easy to refer to the path of your home directory.
 For example, ~ extends to the current user's home directory path. For example, it could be a path such as "/home/user" or "/Users/user".
 Use '~username' to refer to the home directory of a particular user. For example, '~john' refers to the home directory of the "john" user.
 
