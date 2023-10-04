@@ -4,6 +4,7 @@
 1. Access the [git](https://git-scm.com/download/win) site
 2. Download the git by choosing the right one out of 32 bits and 64 bits.
 3. After installation, search for Gitbash in the Windows search box and run it.
+
 ---
 ### -Standard Output-
 
