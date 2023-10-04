@@ -6,7 +6,7 @@
 3. After installation, search for Gitbash in the Windows search box and run it.
 
 ---
-### -Standard Output-
+### Standard Output
 
 The standard output is the output stream produced when the program runs, which basically outputs results on the screen.
 *-commands-*
@@ -15,7 +15,7 @@ The standard output is the output stream produced when the program runs, which b
 ">>" - >> is used to add output to a file. That is, add results to a file that already exists, or create a new file to record the results if the file does not exist.
 ex) 'command1>>output.txt': Adds the execution result of 'command1' to the file 'output.txt'. If the file 'output.txt' does not exist, it is newly created. Add content if the file already exists.
 ---
-### -Standard Input-
+### Standard Input
 Standard Input is the default, and programs running on the terminal receive your keyboard input as standard input as standard input. This is typically used to read text from a terminal.
 *-commands-*
 "<" - You can use the "<" to redirect the input from the file. It sets the program to use the contents of the file as standard input.
@@ -27,7 +27,7 @@ ex)
 This command uses the file "input.txt" as standard input while running "myprogram" and stores the output in the file "output.txt".
 
 ---
-### -Pipelines "|"-
+### Pipelines "|"
 '|' is used to connect multiple commands to process or convert data. "|" uses to create pipelines and is responsible for forwarding the output of one command to the input of the next.
 The pipeline simplifies complex tasks by combining multiple commands, and delivers intermediate results directly to the next command without saving them.
 ex)
@@ -37,7 +37,7 @@ ex)
 In this case, the output of 'command1' is passed through the pipeline to the input of 'command2'. You can calculate what 'command1' is and pass the results to 'command2' for further processing or filtering.
 
 ---
-### -Expansion-
+### Expansion
 "\*"- The wildcard character "\*" is used to indicate the name of a matching file or directory. This character is useful for selecting or retrieving multiple files based on a pattern.
 ex)
 -*'.txt': Indicates all files in the current directory with the extension ".txt".
@@ -49,7 +49,7 @@ For example, ~ extends to the current user's home directory path. For example, i
 Use '~username' to refer to the home directory of a particular user. For example, '~john' refers to the home directory of the "john" user.
 
 ---
-### -Tip:Backslash-
+### Tip:Backslash
 Line Continuation - Backslash allows you to create long commands across multiple lines. This makes commands easier to read.
 ex)
 ```
@@ -111,7 +111,7 @@ Others: Read (4)
 $chmod 644 word.txt
 ```
 ---
-### -Superuser-
+### Superuser
 - A superuser has all system administation authority
 - Some commands need superuser’s privilleges.
 - Put “sudo” before the command if you are a superuser
@@ -119,7 +119,7 @@ $chmod 644 word.txt
 ![](https://i.ibb.co/brmRYqP/2003.png)
 
 ---
-### -TextEditors-
+### TextEditors
 - Vim: Vim provides a powerful command mode and supports a variety of plug-ins and extensions. Although the learning curve is rather steep, it provides excellent productivity for experienced users.
 - Emacs: Emacs is a text editor that is highly scalable and offers a variety of features. Emacs is easy to customize and allows you to do many things through different modes and packages.
 - Nano: Nano is a relatively simple CLI text editor, useful for beginners. Intuitive and easy to use.
@@ -127,10 +127,10 @@ $chmod 644 word.txt
 - Kwrite: Kwrite is a lightweight text editor, primarily offered as the default text editing tool in KDE desktop environments.
 
 ---
-### -ShellScript-
+### ShellScript
 - Write and run a shell script
 ![](https://i.ibb.co/pvFnyyT/2004.png)
 
 ---
-### -Tip:History-
+### Tip:History
 The "history" command is used to display a list of commands previously entered by the user on Linux and Unix-based systems. This command allows you to check the command history and re-run or retrieve previously used commands.
