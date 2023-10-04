@@ -11,9 +11,9 @@
 The standard output is the output stream produced when the program runs, which basically outputs results on the screen.
 
 *commands*<br/>
-">" - If you use the ">" you can send the standard output to a file rather than a screen. Use the ">" at this time. For example, the following command executes the ls command to store a list of files in the current directory in the 'files.txt file'.
-"cat" - "cat" command is a command that outputs the contents of a file on the screen. For example, 'cat filename.txt' displays the contents of the 'filename.txt' file on the terminal.
-">>" - >> is used to add output to a file. That is, add results to a file that already exists, or create a new file to record the results if the file does not exist.
+">" - If you use the ">" you can send the standard output to a file rather than a screen. Use the ">" at this time. For example, the following command executes the ls command to store a list of files in the current directory in the 'files.txt file'. <br/>
+"cat" - "cat" command is a command that outputs the contents of a file on the screen. For example, 'cat filename.txt' displays the contents of the 'filename.txt' file on the terminal. <br/>
+">>" - >> is used to add output to a file. That is, add results to a file that already exists, or create a new file to record the results if the file does not exist. <br/>
 ex) 'command1>>output.txt': Adds the execution result of 'command1' to the file 'output.txt'. If the file 'output.txt' does not exist, it is newly created. Add content if the file already exists.
 ---
 ### Standard Input
